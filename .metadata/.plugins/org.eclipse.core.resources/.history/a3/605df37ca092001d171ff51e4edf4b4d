@@ -1,0 +1,12 @@
+package br.com.magna.sistemas.veiculos.modelo;
+
+public class Caminhonete implements Carga {
+
+	@Override
+	public int mostrarCapacidade() {
+		return 0;
+	}
+	
+	
+	
+}

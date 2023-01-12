@@ -1,0 +1,5 @@
+package tarefa_1;
+
+public class Carga extends Automotor {
+
+}

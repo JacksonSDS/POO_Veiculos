@@ -1,0 +1,17 @@
+package br.com.magna.sistemas.veiculos.modelo;
+
+public class PropulsaoHumana extends Veiculos {
+	
+	private int ForçaFisica;
+
+	public int getForçaFisica() {
+		return ForçaFisica;
+	}
+
+	public void setForçaFisica(int forçaFisica) {
+		ForçaFisica = forçaFisica;
+	}
+	
+}
+	
+	

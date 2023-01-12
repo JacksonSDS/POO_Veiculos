@@ -1,0 +1,16 @@
+package br.com.magna.sistemas.veiculos.modelo;
+
+public class Onibus implements Passageiro {
+
+	@Override
+	public Integer getCapacidadeDePassageiro(Integer numero) {
+		return numero;
+	}
+
+	@Override
+	public void setCapacidadeDePassageiro(int capacidadeDePassageiro) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

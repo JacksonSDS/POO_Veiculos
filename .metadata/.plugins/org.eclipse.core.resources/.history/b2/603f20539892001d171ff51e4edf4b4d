@@ -1,0 +1,17 @@
+package br.com.magna.sistemas.veiculos.modelo;
+
+public class Moto implements Passageiro {
+
+	@Override
+	public String getCapacidadeDePassageiro() {
+		// TODO Auto-generated method stub
+		return "Dois";
+	}
+
+	@Override
+	public void setCapacidadeDePassageiro(int capacidadeDePassageiro) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package br.com.magna.sistemas.veiculos.modelo;
+
+public class Ferroviario extends VeiculosMotorizados {
+	private int Vagoes;
+	private String Estaçoes;
+	
+	public int getVagoes() {
+		return Vagoes;
+	}
+	public void setVagoes(int vagoes) {
+		Vagoes = vagoes;
+	}
+	public String getEstaçoes() {
+		return Estaçoes;
+	}
+	public void setEstaçoes(String estaçoes) {
+		Estaçoes = estaçoes;
+	}
+	
+}

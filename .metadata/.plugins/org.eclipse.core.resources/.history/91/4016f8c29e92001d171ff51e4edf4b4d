@@ -1,0 +1,9 @@
+package br.com.magna.sistemas.veiculos.modelo;
+
+public interface Carga  {
+	
+	public int getCapacidadeDeCarga();
+
+	public void setCapacidadeDeCarga(int capacidadeDeCarga);
+	
+}

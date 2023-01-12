@@ -1,0 +1,15 @@
+package br.com.magna.sistemas.veiculos.modelo;
+
+public class Caminhonete implements Carga {
+
+	@Override
+	public int setCapacidadeDeCarga(int capacidadeDeCarga) {
+		return capacidadeDeCarga;
+	}
+
+	@Override
+	public int getCapacidadeDeCarga() {
+		return 1;
+	}
+
+}

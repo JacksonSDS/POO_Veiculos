@@ -1,0 +1,20 @@
+package tarefa_1;
+
+public class Eletrico extends VeiculosMotorizados {
+	private double Consumo;
+	private int Bateria;
+	
+	public double getConsumo() {
+		return Consumo;
+	}
+	public void setConsumo(double consumo) {
+		Consumo = consumo;
+	}
+	public int getBateria() {
+		return Bateria;
+	}
+	public void setBateria(int bateria) {
+		Bateria = bateria;
+	}
+	
+}

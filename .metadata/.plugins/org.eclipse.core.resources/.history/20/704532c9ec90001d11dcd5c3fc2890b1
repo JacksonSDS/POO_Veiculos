@@ -1,0 +1,28 @@
+package br.com.magna.sistemas.veiculos.modelo;
+
+public class VeiculosNaoMotorizados extends Veiculos {
+	
+	private boolean marcha;
+	private boolean portas;
+	private boolean janelas;
+	
+	public boolean Marcha() {
+		return marcha;
+	}
+	public void setMarcha(boolean marcha) {
+		this.marcha = marcha;
+	}
+	public boolean Portas() {
+		return portas;
+	}
+	public void setPortas(boolean portas) {
+		this.portas = portas;
+	}
+	public boolean isJanelas() {
+		return janelas;
+	}
+	public void setJanelas(boolean janelas) {
+		this.janelas = janelas;
+	}
+
+}

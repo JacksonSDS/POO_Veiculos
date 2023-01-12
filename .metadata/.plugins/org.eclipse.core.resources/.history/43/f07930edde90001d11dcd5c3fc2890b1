@@ -1,0 +1,20 @@
+package tarefa_1;
+
+public class PropulsaoHumana {
+	private int QuantidadeAnimal;
+	private String TipoAnimal;
+	
+	public int getQuantidadeAnimal() {
+		return QuantidadeAnimal;
+	}
+	public void setQuantidadeAnimal(int quantidadeAnimal) {
+		QuantidadeAnimal = quantidadeAnimal;
+	}
+	public String getTipoAnimal() {
+		return TipoAnimal;
+	}
+	public void setTipoAnimal(String tipoAnimal) {
+		TipoAnimal = tipoAnimal;
+	}
+
+}

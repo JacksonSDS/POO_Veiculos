@@ -1,0 +1,13 @@
+package br.com.magna.sistemas.veiculos.modelo;
+
+public interface Passageiro {
+	
+	public int CapacidadeDePassageiro = 0;
+
+	public String getCapacidadeDePassageiro() {
+		return "quantidade de passageiros: 75";
+	}
+
+	public void setCapacidadeDePassageiro(int capacidadeDePassageiro);	
+
+}

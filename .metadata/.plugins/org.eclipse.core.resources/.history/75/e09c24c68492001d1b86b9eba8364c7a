@@ -1,0 +1,11 @@
+package br.com.magna.sistemas.veiculos.modelo;
+
+public interface Passageiro {
+	
+	int CapacidadeDePassageiro;
+
+	public int getCapacidadeDePassageiro();
+
+	public void setCapacidadeDePassageiro(int capacidadeDePassageiro);	
+
+}

@@ -1,0 +1,33 @@
+package br.com.magna.sistemas.veiculos.modelo;
+
+public class PropulsaoHumana extends Veiculos {
+	
+	private int ForçaFisica;
+
+	public int getForçaFisica() {
+		return ForçaFisica;
+	}
+
+	public void setForçaFisica(int forçaFisica) {
+		ForçaFisica = forçaFisica;
+	}
+	
+	public void pedalar() {
+        System.out.println("Você esta pedalando");
+    }
+	
+	public void freiar() {
+        System.out.println("Você esta freiando");
+    }
+	
+	public void conduzir() {
+        System.out.println("Você esta conduzizando seu veiculo");
+    }
+	
+	public void equilibrar() {
+        System.out.println("Você esta equilibrado");
+    }
+	
+}
+	
+	

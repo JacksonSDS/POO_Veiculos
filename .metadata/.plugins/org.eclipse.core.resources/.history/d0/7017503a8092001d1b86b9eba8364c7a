@@ -1,0 +1,14 @@
+package br.com.magna.sistemas.veiculos.modelo;
+
+public class Carga extends Automotor {
+	private int CapacidadeDeCarga;
+
+	public int getCapacidadeDeCarga() {
+		return CapacidadeDeCarga;
+	}
+
+	public void setCapacidadeDeCarga(int capacidadeDeCarga) {
+		CapacidadeDeCarga = capacidadeDeCarga;
+	}
+	
+}

@@ -1,0 +1,28 @@
+package br.com.magna.sistemas.veiculos.modelo;
+
+public class VeiculosMotorizados extends Veiculos {
+	
+	private double Motor;
+	private int potencia;
+	private int VeloMaxima;
+	
+	public double getMotor() {
+		return Motor;
+	}
+	public void setMotor(double motor) {
+		Motor = motor;
+	}
+	public int getPotencai() {
+		return potencia;
+	}
+	public void setPotencai(int potencia) {
+		this.potencia = potencia;
+	}
+	public int getVeloMaxima() {
+		return VeloMaxima;
+	}
+	public void setVeloMaxima(int veloMaxima) {
+		VeloMaxima = veloMaxima;
+	}
+
+}

@@ -1,0 +1,29 @@
+package br.com.magna.sistemas.veiculos.modelo;
+
+public class Van implements Passageiro, Carga {
+
+	@Override
+	public int getCapacidadeDeCarga() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setCapacidadeDeCarga(int capacidadeDeCarga) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getCapacidadeDePassageiro() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setCapacidadeDePassageiro(int capacidadeDePassageiro) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

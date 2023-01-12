@@ -1,0 +1,18 @@
+package br.com.magna.sistemas.veiculos.modelo;
+
+public class Caminhonete implements Carga {
+	
+	private int capacidade;
+
+	public int getCapacidade() {
+		return capacidade;
+	}
+
+	public void setCapacidade(int capacidade) {
+		this.capacidade = capacidade;
+	}
+
+	public int mostrarCapacidadeDeCarga() {
+		return capacidade;
+	}
+}

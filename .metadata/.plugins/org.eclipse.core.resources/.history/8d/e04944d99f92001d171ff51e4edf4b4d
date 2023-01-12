@@ -1,0 +1,17 @@
+package br.com.magna.sistemas.veiculos.modelo;
+
+public class Caminhao implements Carga {
+
+	@Override
+	public int getCapacidadeDeCarga() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int setCapacidadeDeCarga(int capacidadeDeCarga) {
+		return 1;
+		
+	}
+
+}

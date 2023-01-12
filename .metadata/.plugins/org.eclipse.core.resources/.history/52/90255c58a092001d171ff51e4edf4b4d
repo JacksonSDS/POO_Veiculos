@@ -1,0 +1,17 @@
+package br.com.magna.sistemas.veiculos.modelo;
+
+public class Principal {
+	public static void main(String[] args) {
+		
+		Onibus onibus = new Onibus();
+		onibus.setCapacidadeDePassageiro(788);
+		System.out.println(onibus.getCapacidadeDePassageiro());
+	
+		Caminhonete caminhonete = new Caminhonete();
+		caminhonete.setCapacidade(133131);
+		System.out.println(caminhonete.mostrarCapacidadeDeCarga());
+	
+	
+	}
+
+}

@@ -1,0 +1,17 @@
+1673351325167	Delete element
+1673351373493	Delete element
+1673351423991	Encapsulate field 'hodometro'
+1673351428022	Encapsulate field 'Placa'
+1673351587613	Encapsulate field 'Consumo'
+1673351594199	Encapsulate field 'Bateria'
+1673351661757	Encapsulate field 'Vagoes'
+1673351669275	Encapsulate field 'Estaçoes'
+1673357778672	Rename resource 'tarefa_1'
+1673358218058	Delete element
+1673525490607	Encapsulate field 'Categoria'
+1673525553446	Encapsulate field 'CapacidadeDeCarga'
+1673526515964	Encapsulate field 'Series'
+1673526587943	Encapsulate field 'CapacidadeTotal'
+1673526648738	Encapsulate field 'CapacidadeDePassageiro'
+1673526799825	Encapsulate field 'ForçaFisica'
+1673546519274	Rename type 'VeiculosMotorizados'
