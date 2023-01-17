@@ -1,12 +1,12 @@
 package br.com.magna.sistemas.veiculos.modelo;
 
-public class Automotor extends Motorizados {
+public abstract class Automotor extends Motorizados {
 	
-	private int hodometro;
+	private Integer hodometro;
 	private String Placa;
 	private String Categoria;
 	
-	public int getHodometro() {
+	public Integer getHodometro() {
 		return hodometro;
 	}
 	public void setHodometro(int hodometro) {
@@ -16,13 +16,13 @@ public class Automotor extends Motorizados {
 		return Placa;
 	}
 	public void setPlaca(String placa) {
-		Placa = placa;
+		this.Placa = placa;
 	}
 	public String getCategoria() {
 		return Categoria;
 	}
 	public void setCategoria(String categoria) {
-		Categoria = categoria;
+		this.Categoria = categoria;
 	}
 	
 }

@@ -5,8 +5,8 @@ public class Veiculos {
 	private String Assento;
 	private double Preço;
 	private String Modelo;
-	private int Ano;
-	private int Rodas;
+	private Integer Ano;
+	private Integer Rodas;
 	private double Peso;
 
 	public String getCor() {
@@ -14,7 +14,7 @@ public class Veiculos {
 	}
 
 	public void setCor(String cor) {
-		Cor = cor;
+		this.Cor = cor;
 	}
 
 	public String getAssento() {
@@ -22,7 +22,7 @@ public class Veiculos {
 	}
 
 	public void setAssento(String assento) {
-		Assento = assento;
+		this.Assento = assento;
 	}
 
 	public double getPreço() {
@@ -30,7 +30,7 @@ public class Veiculos {
 	}
 
 	public void setPreço(double preço) {
-		Preço = preço;
+		this.Preço = preço;
 	}
 
 	public String getModelo() {
@@ -38,18 +38,18 @@ public class Veiculos {
 	}
 
 	public void setModelo(String modelo) {
-		Modelo = modelo;
+		this.Modelo = modelo;
 	}
 
-	public int getAno() {
+	public Integer getAno() {
 		return Ano;
 	}
 
 	public void setAno(int ano) {
-		Ano = ano;
+		this.Ano = ano;
 	}
 
-	public int getRodas() {
+	public Integer getRodas() {
 		return Rodas;
 	}
 

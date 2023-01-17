@@ -1,27 +1,27 @@
 package br.com.magna.sistemas.veiculos.modelo;
 
-public class Ferroviario extends Motorizados {
-	private int Vagoes;
-	private int Series;
-	private int CapacidadeTotal;
+public abstract class Ferroviario extends Motorizados {
+	private Integer Vagoes;
+	private Integer Series;
+	private Integer CapacidadeTotal;
 	
-	public int getVagoes() {
+	public Integer getVagoes() {
 		return Vagoes;
 	}
 	public void setVagoes(int vagoes) {
-		Vagoes = vagoes;
+		this.Vagoes = vagoes;
 	}
-	public int getSeries() {
+	public Integer getSeries() {
 		return Series;
 	}
 	public void setSeries(int series) {
-		Series = series;
+		this.Series = series;
 	}
-	public int getCapacidadeTotal() {
+	public Integer getCapacidadeTotal() {
 		return CapacidadeTotal;
 	}
 	public void setCapacidadeTotal(int capacidadeTotal) {
-		CapacidadeTotal = capacidadeTotal;
+		this.CapacidadeTotal = capacidadeTotal;
 	}
 	
 	

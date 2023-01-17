@@ -1,14 +1,14 @@
 package br.com.magna.sistemas.veiculos.modelo;
 
-public class Eletrico extends Motorizados {
+public abstract class Eletrico extends Motorizados {
 	
-	private int Bateria;
+	private Integer Bateria;
 	
-	public int getBateria() {
+	public Integer getBateria() {
 		return Bateria;
 	}
 	public void setBateria(int bateria) {
-		Bateria = bateria;
+		this.Bateria = bateria;
 	}
 	
 }

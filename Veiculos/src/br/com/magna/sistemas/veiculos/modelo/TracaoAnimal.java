@@ -1,21 +1,21 @@
 package br.com.magna.sistemas.veiculos.modelo;
 
-public class TracaoAnimal extends Veiculos {
+public abstract class TracaoAnimal extends Veiculos {
 	
-	private int QuantidadeAnimal;
+	private Integer QuantidadeAnimal;
 	private String TipoAnimal;
 
-	public int getQuantidadeAnimal() {
+	public Integer getQuantidadeAnimal() {
 		return QuantidadeAnimal;
 	}
 	public void setQuantidadeAnimal(int quantidadeAnimal) {
-		QuantidadeAnimal = quantidadeAnimal;
+		this.QuantidadeAnimal = quantidadeAnimal;
 	}
 	public String getTipoAnimal() {
 		return TipoAnimal;
 	}
 	public void setTipoAnimal(String tipoAnimal) {
-		TipoAnimal = tipoAnimal;
+		this.TipoAnimal = tipoAnimal;
 	}
 	
 	public String puxarCorda() {

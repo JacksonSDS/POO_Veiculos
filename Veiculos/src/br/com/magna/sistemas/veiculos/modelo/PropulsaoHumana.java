@@ -1,15 +1,15 @@
 package br.com.magna.sistemas.veiculos.modelo;
 
-public class PropulsaoHumana extends Veiculos {
+public abstract class PropulsaoHumana extends Veiculos {
 	
-	private int ForçaFisica;
+	private Integer ForçaFisica;
 
-	public int getForçaFisica() {
+	public Integer getForçaFisica() {
 		return ForçaFisica;
 	}
 
 	public void setForçaFisica(int forçaFisica) {
-		ForçaFisica = forçaFisica;
+		this.ForçaFisica = forçaFisica;
 	}
 	
 	public String pedalar() {
